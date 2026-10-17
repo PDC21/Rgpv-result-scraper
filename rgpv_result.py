@@ -23,7 +23,7 @@ driver = webdriver.Chrome("chromedriver.exe")
 
 
 def start(roll,driver): #start driver
-    driver.get("http://result.rgpv.ac.in/result/BErslt.aspx")
+    driver.get("esult.rgpv.ac.in/result/BErslt.aspx")
     inputelement(roll,driver)
     
 
